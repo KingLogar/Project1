@@ -176,9 +176,42 @@ Line 17:
   that anything past this point is not treated as part of the 
   head tag.  Always close your tags.
 
-Line 18:
+Line 19:
 
 - This line opens a body tag, which is where the bulk of all
   your html code will go.  This tag is much more tangible than
   the head tag, as almost everything in the body tag will be
   viewable in the final product.
+  
+Line 20:
+
+- This comment appears to be designed to interface with Modernizr,
+  specifically the browser detection feature.  This line will
+  execute if modernizr detects that the user is using an old
+  version of Internet Explorer and display a message suggesting
+  an upgrade.
+
+Line 21:
+
+- This line begins with a paragraph tag, configured to the
+  type of "browserupgrade."  Most HTML tags can be set to sub-
+  types in order to alter their behavior in some way.
+- This line continues with plain text that spells out the 
+  desired message.  Within this line of plain text are formatting
+  tags, such as < strong > to indicate boldface.
+- This line also has an integrated hyperlink to redirect the 
+  user to another webpage if they click on it.
+  
+Line 22:
+
+- This line appears to close the if statement that was opened
+  in the previous comment.
+
+Line 24:
+
+- This comment exists to give instruction on how to modify 
+  it for the programmer's use.
+  
+Line 25:
+
+- This is another paragraph tag with more plain text.
