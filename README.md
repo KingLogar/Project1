@@ -45,8 +45,24 @@ the root of the SRC directory.
   the team responsible for the project.  All they need to do is 
   put their names and roles in the file.
 - Icon.png is a slightly larger version of favicon.ico, and is 
-  used as an alternative when favicon is too small to properly
-  resize.
+  used as the Apple Touch Icon in the event that the program 
+  becomes an app.  This would be the icon you tap to start the
+  app.
 - Index.html is the default landing page for the website, and 
   most likely the first page the user will see.  A more detailed
   explanation of this file will be included in the next section.
+- Robots.txt is used in regards to webcrawlers from search engines
+  like Google.  Specifically it is used to determine whether
+  certain pages of the website are allowed to be index by crawlers,
+  or if the crawlers are disallowed from doing so.
+- Site.WebManifest is a short manifest of the contents of the
+  website stored as a .JSON file.  The main things stored in 
+  the file are the name, author, icon, and description.
+- Tile.png is similar to Icon.png, but instead of being used 
+  as a touch icon for an app, it is used as the icon when you
+  pin the program in a Windows environment.
+- Tile-wide.png is virtually identical in purpose to the prior
+  file, the only functional difference being a higher resolution.
+  This one is used for the "windows" display in Windows 10.
+  
+--------------------------------------------------------------
