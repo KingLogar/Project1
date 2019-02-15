@@ -95,6 +95,8 @@ data and declare any links to external files.
 
 Line 5:
 
+- This is an example of a meta-data tag, which allows for many
+  different options to be set.
 - This line sets the encoding system to UTF-8, which is the 
   preferred encoding scheme for online applications.  Encoding
   in this case refers to how the data is encoded into binary.
@@ -106,3 +108,41 @@ Line 5:
   widely used and thus encoding a website in UTF-8 ensures maximum
   compatibility.
 
+Line 6:
+
+- This meta-data tag is enabling another option, more
+  specifically enabling support for older versions of 
+  Internet Explorer.  The line "ie=edge" will tell Internet
+  Explorer to display the page in the most recent IE format
+  It can support, usually IE9.
+  
+Line 7:
+
+- This line open and closes an empty title tag.  Title tags
+  are used to display the name of the website/web page in the
+  tab of the browser.
+  
+Line 8:
+
+- This line establishes the page's meta-description information,
+  which is often used in search engine results.  The only time
+  this description is seen by a user is as the description of
+  the web page when it appears as a result of a search.  If
+  this is left blank, the search result description will be
+  taken from the first paragraph of the page.
+  
+Line 9:
+
+- This line is called the viewport meta-tag, and is used to 
+  help scale a website down to fit on a mobile device screen.
+  A manual width can be set, or the width can be set to match
+  the device's screen.  An optional scaling factor can be set
+  to further adjust the mobile display.
+  
+Line 11:
+
+- This is an example of a link tag.  The 'rel' field determines
+  how that document relates to the current one, and the 'href'
+  field denotes the url or filepath for that document.
+- In this case, the tag is denoting that the specified file
+  is this page's manifest file.
