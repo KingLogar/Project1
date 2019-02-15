@@ -3,7 +3,7 @@ SRC Folder Breakdown
 The following is an analysis of all the files and folders in
 the root of the SRC directory.
 
-------------------------------------------------------------
+-------------------------------------------------------------
 
 - The first sub-folder in SRC is the DOC folder, short for
   Documentation.  Simply put, this folder is where you put
@@ -66,3 +66,43 @@ the root of the SRC directory.
   This one is used for the "windows" display in Windows 10.
   
 --------------------------------------------------------------
+
+Index.html Breakdown
+
+This section will go over each line of the index.html page.
+
+-------------------------------------------------------------
+
+Line 1:
+
+- This line is referred to as a doctype declaration, which is
+  effectively a set of instructions given to the browser to let
+  it know what version of html must be used.
+
+Line 2:
+
+- This line opens the HTML tag, which the entire page will be 
+  enclosed in.  This tag allows for certain variables to be set,
+  such as 'no-js.'
+- This code is used for interfacing with Modernizr, a JS plugin
+  for browsers.  If Modernizr is running, it replaces the 'no-js'
+  with 'js,' allowing JavaScript to be run.
+  
+Line 4:
+
+- This line opens a Head tag, which is the place to store meta-
+data and declare any links to external files.
+
+Line 5:
+
+- This line sets the encoding system to UTF-8, which is the 
+  preferred encoding scheme for online applications.  Encoding
+  in this case refers to how the data is encoded into binary.
+- It's very important to declare this as soon as possible in
+  this file, otherwise you're vulnerable to data breaches and 
+  hijacking due to unencoded data being left vulnerable.
+- UTF-8 is the modern equivelant of the ASCII encoding scheme,
+  and is fully backwards-compatible with ASCII.  It is also very
+  widely used and thus encoding a website in UTF-8 ensures maximum
+  compatibility.
+
