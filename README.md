@@ -41,3 +41,12 @@ the root of the SRC directory.
   list.  The second use is almost identical, except that instead
   of appearing in your bookmarks list it appears in the address bar/tab 
   header of your browser.
+- Humans.txt is a short file designed to give proper credits to
+  the team responsible for the project.  All they need to do is 
+  put their names and roles in the file.
+- Icon.png is a slightly larger version of favicon.ico, and is 
+  used as an alternative when favicon is too small to properly
+  resize.
+- Index.html is the default landing page for the website, and 
+  most likely the first page the user will see.  A more detailed
+  explanation of this file will be included in the next section.
