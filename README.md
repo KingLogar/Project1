@@ -215,3 +215,79 @@ Line 24:
 Line 25:
 
 - This is another paragraph tag with more plain text.
+
+Line 26:
+
+- This is an example of a script tag.  Instead of writing JavaScript
+  in the HTML file, you can link an external JavaScript file
+  instead.  This is the recommended method.  The SRC field is used
+  to denote the location of the external JS file.
+- This JS tag is calling the main JS file for Modernizr.  At
+  this point when the code is executed, the linked file will be
+  called and carry out its function, so be sure to place your
+  JS tags after the code you want it to work on--or, ideally, at
+  the end of the entire file.
+  
+Line 27:
+
+- This Script tag is linked to an external JQuery website for
+  added functionality.  The "integrity" and "crossorigin" fields
+  are added security measures.  Integrity is denoted to specify
+  what protocol to go with if the original source of this script
+  has been manipulated in some way, and likewise the crossorigin
+  is used to specify what to do when the source file is hosted
+  on a different server.
+  
+Line 28:
+
+- This script tag is an example of an in-line JavaScript code.
+  Functionally this will work just as fine as calling an external
+  file.
+- This is a particularly interesting JavaScript line because
+  it's calling a JQuery function in the current window, which
+  also calls and executes a second JQuery function.
+  
+Line 29&30:
+
+- These two lines link additional JS files from the JS folder
+  in this project.
+  
+Line 32:
+
+- This is another comment with instructions for the programmer.
+
+Line 33:
+
+- This line opens a Script tag.  The following lines are another
+  way to do in-line JS.
+  
+Line 34&35:
+
+- These lines are actual JS code, which has entirely different
+  formatting and syntax than html.  These two lines contain
+  multiple JS statements separated by ;
+- What these lines do is prepare and send a Google Analytics
+  tracker with information about your website.  This is a very
+  good tool to track various post-production and usage statistics
+  about your website.
+  
+Line 36:
+
+- This line closes the previous Script tag, an important step.
+
+Line 37:
+
+- This is another Script tag, but with the inclusion of Async
+  and Defer, it will run after the entire web page has been loaded
+  and will even effect the lines below it.
+
+Line 38:
+
+- Closes the body tag.  You'd get serious errors without this.
+
+Line 40:
+
+- Closes the html tag, ending the file.
+  You'd get serious errors without this.
+  
+------------------------------------------------------------
