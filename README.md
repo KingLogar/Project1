@@ -146,3 +146,39 @@ Line 11:
   field denotes the url or filepath for that document.
 - In this case, the tag is denoting that the specified file
   is this page's manifest file.
+  
+Line 12:
+
+- This line specifies what image is the app's Touch Icon,
+  which we covered earlier.
+  
+Line 13:
+
+- This line is an example of a comment.  Comments are not
+  read or executed when the rest of the code runs and usually
+  serve to exist as notations on an app's code for other
+  programmers to read.
+  
+Line 15:
+
+- This is a link to an external style sheet that will be used
+  to format the web page. Using external style sheets is considered
+  good practice since you only need to change one file instead of
+  every linked page.
+  
+Line 16:
+
+- This is another link to an external style sheet.  Multiple
+  style sheets can be utilized to pull off different effects.
+
+Line 17: 
+- This line closes the previously opened head tag, making sure
+  that anything past this point is not treated as part of the 
+  head tag.  Always close your tags.
+
+Line 18:
+
+- This line opens a body tag, which is where the bulk of all
+  your html code will go.  This tag is much more tangible than
+  the head tag, as almost everything in the body tag will be
+  viewable in the final product.
