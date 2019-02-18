@@ -316,4 +316,4 @@ Line 40:
 
 Tutorial
 
-![alt text](img/web.png "webstorm")
+![alt text](/src/img/web.png "webstorm")
