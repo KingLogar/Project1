@@ -291,3 +291,24 @@ Line 40:
   You'd get serious errors without this.
   
 ------------------------------------------------------------
+1.	1958: Bell Labs creates the modem
+2.	1969: Arpanet is founded. Arpanet was a military computer network that was used for sharing data long distance.
+3.	1971: Ray Tomlinson sends the first network email
+4.	1974: TCP/IP ideas are introduced in the 'A Protocol for Packet Network Interconnection'. It is a packet switching technology that would outline how the internet would process.
+5.	1974: the word Internet is coined
+6.	1984: Request for Comments is introduced. It introduces domains such as .com, .org, and .gov
+7.	1990: HTML language is created.
+8.	1990: Tim Berners-Lee introduces the WWW for nuclear research for scientists such as Arpanet was for the military.
+9.	1992: WWW is available for download
+10.	1993: The first internet browser is created. Marc Andreessen creates Mosaic.
+11.	1994: SSL, Secure Socket are created an are the still used as the standard
+12.	1994: WebCrawler is the first full search engine
+13.	1995: Apache is created and it is a free open-source server software.
+14.	1995: Java is created
+15.	1996: Brewster Kahle creates the Internet archive
+16.	1998: Google is founded
+17.	2000: Wi-Fi is trademarked
+18.	2001: Wikipedia is created
+19.	2004: Facebook is created
+20.	2011: Number of Internet users reaches 2 Billion 
+
