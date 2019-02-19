@@ -425,4 +425,12 @@ your changes and push them back to the repository.  To do this, we need to find 
 This button is located in two places: in the top right corner of the webstorm window, and under the VCS menu.  Both buttons 
 will accomplish the same effect.
 
-![alt text](img/Step5.png "There's a right and a wrong choice here.")  
+![alt text](img/Step5.png "There's a right and a wrong choice here.")
+
+The Commit button acts similarly to saving, meaning you don't need to perform a regular save after a commit, but it also
+prepares your code to be pushed to the repository.  That's why when you press on this button one of the things you'll see
+is a textbox where you should write a short, descriptive message explaning your changes.  After writing a message just
+press the commit button at the bottom of this window.  Now, we need to actually push the code back to the repository.  This
+button is, once again, located under VCS -> Git -> Push.  Clicking on it will open this window.
+
+
