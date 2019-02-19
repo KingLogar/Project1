@@ -420,4 +420,9 @@ your active branch, go back to this menu, click on the local branch you would li
 
 Step 5.
 
+Once you're done making changes to your local branch and want to update the repository with your work, it's time to commit
+your changes and push them back to the repository.  To do this, we need to find the Commit button in order to save our work.
+This button is located in two places: in the top right corner of the webstorm window, and under the VCS menu.  Both buttons 
+will accomplish the same effect.
 
+![alt text](img/Step5.png "There's a right and a wrong choice here.")  
