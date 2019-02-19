@@ -314,6 +314,94 @@ Line 40:
 
 -------------------------------------------------------------
 
-Tutorial
+GitHub Tutorial
 
-![alt text](img/web.png "webstorm")
+Vocabulary
+
+GIT - Git is a free and open source distributed version control system designed to handle everything from small to very 
+large projects with speed and efficiency.
+
+GITHUB - GitHub is a Git repository hosting service, but with many new tools added to make collaboration much easier than
+with standalone Git.
+
+Repository - a central location in which data is stored and managed; in our case, a repository is the digital copy of our
+project that is stored on GitHub that we work off of.
+
+Clone -  Making a local copy of a hosted repository on our local machines.
+
+Commit - saving changes made to the project and preparing them to be pushed to the repository.
+
+Push - refers to the command we use when we send our committed version of the project back to the repository for review.
+
+Pull - updating our local project with the most recent commits from the repository.  Doing this also updates the files in
+our working environment.
+
+Branch - branches are different versions of the same project that are being worked on separately.  Every project has at 
+least a master branch, which is the main version of the project.  Each team member should ideally be working out of their
+own unique branch so as not to cause conflicts and chaos while the team works.
+
+Merge - refers to the act of combining branches into each other.  Merging branches adds all of the unique files from each
+branch into a single copy.  However, if there is a file in both branches that has the same name but different contents, 
+attempting a merge will result in a...
+
+Merge Conflict - the result of attempting to merge branches that have at least one file that has contradictory contents 
+between both branches.  This requires a manual resolution to the conflict, which will be covered in this guide.
+
+Fetch - similar to a pull in that it updates local files, but unlike a pull it does not update the files in our working
+environment
+
+Remote - refers to a web-hosted repository.
+
+Collaboration Tutorial
+
+Prerequisites:
+
+- A GitHub account.
+
+- a local installation of Git.
+
+- a local installation of Webstorm.
+
+Once you have all of the above, it's time to learn how to collaborate on GitHub.
+
+Step 1.
+
+The first step in working on a collaborative project on GitHub is to have a repository you want to work out of.  If 
+you do not have one, making one is very simple.  From your GitHub dashboard, find and click on the green "New" button.
+
+![alt text](img/Step1.png "This button")
+
+This will take you to a page where you need to give your new repository a name, plus an optional description, determine 
+if it will be publicly or privately viewable, initialize it with a readme and/or a GitIgnore, and pick a license for your
+project.  For the purposes of this example make sure you add a readme, then press the green button at the bottom of this 
+screen.
+
+![alt text](img/Step1-a.png "Don't tussle with this bird")
+
+Step 2.
+
+Now we have our repository, but we're still missing one crucial ingredient for collaboration: collaborators.  To add 
+collaborators to your project, go to the repository's page and click on the settings tab.  This will open a new screen 
+with a sidebar.  On that sidebar is a setting labelled collaborators, click on it.
+
+![alt text](img/Step2.png "Invite your friends, it's coding time!")
+
+This opens a new panel where you can see the current collaborators on a project as well as provide you with a searchbox
+for looking up your teammates' accounts and adding them to the project.  Type in one username at a time and press the button
+to send them an invite.  After the accept, they will be added to your project as a collaborator.
+
+Step 3.
+
+Okay, now we have our collaborators but you may be wondering just how everyone will get a copy of the project's files to
+work on.  This is where we will enter Webstorm and begin to do some actual work.  Open up Webstorm and locate the VCS tab
+at the very top of the workspace window.  Under that tab, navigate to Git, and under the Git tab navigate to and click on 
+Clone.
+
+![alt text](img/Step3.png "Ignore the wip in the background.")
+
+This will open a small window over your work space with two fields and a few buttons.  The top field is asking for the URL
+of the repository you would like to clone, while the second is asking you to specify where to save this cloned repository.
+Paste the URL of the repository made during this tutorial and configure the save location to your liking, then press the
+clone button.  Depending on the size of the repository cloning could take several minutes.
+
+![alt text](img/Step3-a.png "The future is now.")
