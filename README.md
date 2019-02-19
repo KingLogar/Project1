@@ -433,4 +433,22 @@ is a textbox where you should write a short, descriptive message explaning your 
 press the commit button at the bottom of this window.  Now, we need to actually push the code back to the repository.  This
 button is, once again, located under VCS -> Git -> Push.  Clicking on it will open this window.
 
+![alt text](img/Step5-a.PNG "Not much going on here.")
 
+The bulk of this window is taken up but two review panels.  The first one allows you to review which commits you're about
+to push, and the second one shows you the status of certain files in the project.  Only the files that have been changed, 
+added, removed, etc since the last pushed commit are shown, with new files being highlighted green, removed files being 
+greyed out, and edited files being blue.  After making sure you're pushing everything you want to, go ahead and push the
+commit button to send your work to the repository.  This will create a new section of the repository for your branch, 
+assuming you've been working on one.
+
+Step 6.
+
+One thing you might notice after a few commits by your team is that your local files don't automatically update after every
+commit to the repository.  In order to update your local files, you need to Pull from the repository.  In order to do this,
+just locate the Pull button located next to the Commit button in the top right, or under the VCS -> Git menus.  Either way,
+this will open a small dialogue box.
+
+![alt text](img/Step6.PNG "We don't really care.")
+
+None of these options are particularly important to us, so just go ahead and hit the OK button.
