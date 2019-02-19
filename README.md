@@ -404,4 +404,20 @@ of the repository you would like to clone, while the second is asking you to spe
 Paste the URL of the repository made during this tutorial and configure the save location to your liking, then press the
 clone button.  Depending on the size of the repository cloning could take several minutes.
 
-![alt text](img/Step3-a.png "The future is now.")
+![alt text](img/Step3-a.png "Simple yet effective.")
+
+Step 4.
+
+Before you and your teammates start coding in a flurry and trip over each other, there is one very important step to take
+to ensure code sanity: creating individual branches. To create a branch, go to the bottom right corner of webstorm and 
+look for a tab that says "Git:master." Click on it, and the branch window will appear.
+
+![alt text](img/Step4.png "Small little bugger.")
+
+For the time being we're just interested in one option, New Branch, but we will come back to this menu later.  Click on 
+New Branch and communicate with your team so all members have a uniquely named branch.  As a side note, to switch between
+your active branch, go back to this menu, click on the local branch you would like to work in and select the Checkout option.
+
+Step 5.
+
+
