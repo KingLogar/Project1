@@ -477,4 +477,22 @@ Step 8.
 The final thing that you may notice while collaborating is that the master branch doesn't seem to update and pushing into
 the master branch isn't working.  That's simply because you can't push into master, and there's a specific process to update
 the contents of master.  On the project's GitHub page, you will see a button labelled "New Pull Request".  Click on it, 
-and you will be taken to a new screen.
+and after being prompted to select a branch you will be taken to a new screen.
+
+![alt text](img/step8.png "A big boy.")
+
+This screen can be broken up into 3 major sections.  The first section asks you to write a description for your pull 
+request and also features the button to confirm your pull request.  Additionally the top of this section will show you 
+the compatibility between the two branches.
+
+![alt text](img/step8-a.png "who is bigger than the big boy?")
+
+The second section allows you to review every previous commit from the branch you are merging.  Useful for deciding if 
+the branch fits all requirements you are looking for.
+
+![alt text](img/step8-b.png "No one. No is is bigger than the big boy")
+
+And lastly, the final section allows you to see any and all changes made to files shared between branches in full detail.
+
+Sometimes, like in the example images featured above, a pull request will be able to merge automatically without issue, 
+but most of the time your pull requests will not go over so smoothly  and you will need to manually resolve merging conflcits.
