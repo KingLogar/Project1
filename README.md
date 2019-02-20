@@ -451,4 +451,30 @@ this will open a small dialogue box.
 
 ![alt text](img/Step6.PNG "We don't really care.")
 
-None of these options are particularly important to us, so just go ahead and hit the OK button.
+None of these options are particularly important to us, so just go ahead and hit the OK button.  If you end up working on 
+a project with more specific requirements, those options may come in handy, but for now just hit ok and let your files 
+update.  Once that finishes, your local copy of the project will be up to date.
+
+Step 7. 
+
+But wait, you might be saying, my work space didn't update at all!  While that may appear to be true, click on the branch
+manager tab again.  If your teammates added their own branches, you'll see them added under the remote branches section.
+How do you get them into your workspace?  Simple.  Click on that tab again, then on whatever remote branch you don't already
+have in your workspace, then click on Checkout As...
+
+![alt text](img/step7.png "Our old friend.")
+
+This will present you with the option to either rename the branch or leave it with its original name.  I recommend leaving
+it with the default name.  After creating the new copy of that branch, checkout into that branch and you will see all the
+files and edits made in that branch.  These branches are separate from each other so you can work in your own branch while
+using files in other branches as references.  Additionally, you can merge local branches into each other.  To do this, 
+simply checkout the branch you would like to merge into, then click on the branches you would like to merge and click on 
+"merge into current."  This will combine the two branches so you have the files of both.
+
+
+Step 8.
+
+The final thing that you may notice while collaborating is that the master branch doesn't seem to update and pushing into
+the master branch isn't working.  That's simply because you can't push into master, and there's a specific process to update
+the contents of master.  On the project's GitHub page, you will see a button labelled "New Pull Request".  Click on it, 
+and you will be taken to a new screen.
