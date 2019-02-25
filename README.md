@@ -310,6 +310,8 @@ a.	  Developed by Tim Berners-Lee, HTML was used to create web pages, that could
 a.	   Tim Berners-Lee and his team developed the WWW as a way for scientists in universities and institutes around the world to share information. The first ever website is: http://info.cern.ch/
 10.	1991:  http://info.cern.ch/
 a.	   Tim Berners-Lee publishes the first ever website, http://info.cern.ch/. It describes how the web works and how to use it.
+11.	1993: Mosaic is created and becomes the first popular web browser. 
+a.	   Marc Andreessen and Eric Bina designed Mosaic for Windows. Funding was provided for the project and the first alpha release was published in June 1993. It was not until September 1993 that the first beta was released. 
 
 
 
