@@ -326,5 +326,7 @@ a.	   Pierre Omidyar founded eBay, then called AutionWeb, on September 3, 1997. 
 18.	1998: Google is founded
 a.	   Larry Page and Sergey Brin created google while students at Stanford University. They wanted to create a search engine that would analyzed the relationships among different webpages called PageRank. It determined the relevance of a webpage by how many times the webpage was linked. In September of 1997, Google was registered as a domain name. It was officially incorporated September 1998. 
 19.	2000: Wi-Fi is trademarked 
+20.	2001: Wikipedia is created
+a.	   Created by Jimmy Wales and Larry Sanger, Wikipedia become the largest reference webpage in history. It has over 5 million articles and is comprised of over 300 languages. 
 
 
