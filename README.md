@@ -334,3 +334,4 @@ a.	    Founded by Mark Zuckerberg and several other roomates, Facebook started o
 23.	2005: YouTube and Reddit are now available online
 24.	2006: Twitter Launches
 a.	    Founder of Twitter, Jack Dorsey sends out the first twit on March 21, 2006
+25.	2011: Number of Internet users reaches 2 billion 
