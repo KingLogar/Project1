@@ -312,6 +312,8 @@ a.	   Tim Berners-Lee and his team developed the WWW as a way for scientists in 
 a.	   Tim Berners-Lee publishes the first ever website, http://info.cern.ch/. It describes how the web works and how to use it.
 11.	1993: Mosaic is created and becomes the first popular web browser. 
 a.	   Marc Andreessen and Eric Bina designed Mosaic for Windows. Funding was provided for the project and the first alpha release was published in June 1993. It was not until September 1993 that the first beta was released. 
+12.	1994: WebCrawler is the first full search engine 
+a.	   Brian Pinkerton first created WebCrawler at the University of Washington. WebCrawler was only used as a desktop application. In April 1994, the search engine had over 4,000 websites. By November 1994, it hit its one millionth search query. WebCrawler is the oldest surviving search engine and is still in operation. 
 
 
 
