@@ -335,3 +335,6 @@ a.	    Founded by Mark Zuckerberg and several other roomates, Facebook started o
 24.	2006: Twitter Launches
 a.	    Founder of Twitter, Jack Dorsey sends out the first twit on March 21, 2006
 25.	2011: Number of Internet users reaches 2 billion 
+26.	2012: Ecommerce sales reach $1 trillion worldwide
+27.	2013: The majority of American Adults use online banking.
+
