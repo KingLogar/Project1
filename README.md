@@ -302,5 +302,10 @@ a.	  Vinton Cerf and Robert Kahn published A Protocol for Packet Network Interco
 a.	  In Internet Transmission Control Program, internet is first used in the acronym IP, which stands for Internet Protocol. 
 6.	1983: ARPANET adopts TCP/IP 
 a.	  ARPANET scientist began to assemble the “network of networks” that became the modern
+7.	1984: Domain Name System (DNS) is introduced
+a.	  Paul Mockapetris recognized one problem with ARPANET’s problem with translating addresses into a single table on a single host. He introduced DNS and it become a one of the internet standards n the IETF. Some of the DNS include: .com, .gov and .edu. 
+8.	1990: HTML language is created. 
+a.	  Developed by Tim Berners-Lee, HTML was used to create web pages, that could be displayed on the WWW. Without the creation of HTML, web pages would not be able to correctly display text or images. 
+
 
 
