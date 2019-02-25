@@ -317,5 +317,8 @@ a.	   Brian Pinkerton first created WebCrawler at the University of Washington. 
 13.	1994: Amazon is founded
 a.	   Jeff Bezos created Amazon in July of 1994. It original started as an online bookstore. The company is now worth ~$1 trillion. 
 14.	1995: DOT-COM BOOM BEGINS
+15.	1995: Apache is created 
+a.	   In 1994, Brian Behlendorf and Cliff Skolnick created a group of developers to create Apache. After testing out the many enhancements and bug fixes to the NCSA base, they released their owned server, Apache, was released in April 1995. It became the most widely server. It is free to use and download. 
+
 
 
