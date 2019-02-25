@@ -292,23 +292,49 @@ Line 40:
   
 ------------------------------------------------------------
 1.	1958: Bell Labs creates the modem
-2.	1969: Arpanet is founded. Arpanet was a military computer network that was used for sharing data long distance.
+2.	1969: Arpanet is founded.
+a.	 Arpanet was a military computer network that was used for sharing data long distance. It was developed under ARPA and soon linked four different universities computers together. ARPANET would send information by using packets. The basis for the internet can be traced back to ARPANET
 3.	1971: Ray Tomlinson sends the first network email
-4.	1974: TCP/IP ideas are introduced in the 'A Protocol for Packet Network Interconnection'. It is a packet switching technology that would outline how the internet would process.
+a.	  Ray Tomlinson sent the first email using a software called “SNDMSG.” He also introduced the “@” symbol to separate the person name and location. Tomlinson sent the first email to a colleague in the same room as him, to check if the software was working properly. To this day, the message within the email has been forgotten. 
+4.	1974: TCP/IP ideas are introduced in a protocol for packet network intercommunication.
+a.	  Vinton Cerf and Robert Kahn published A Protocol for Packet Network Intercommunication. Because many of the existing computers operated on its on hardware and software, it became almost impossible for computers to commutate to each other. Cerf and Kahn created a protocol, TCP, that allowed cross networking. They published their network architecture in May of 1974. 
 5.	1974: the word Internet is coined
-6.	1984: Request for Comments is introduced. It introduces domains such as .com, .org, and .gov
-7.	1990: HTML language is created.
-8.	1990: Tim Berners-Lee introduces the WWW for nuclear research for scientists such as Arpanet was for the military.
-9.	1992: WWW is available for download
-10.	1993: The first internet browser is created. Marc Andreessen creates Mosaic.
-11.	1994: SSL, Secure Socket are created an are the still used as the standard
-12.	1994: WebCrawler is the first full search engine
-13.	1995: Apache is created and it is a free open-source server software.
-14.	1995: Java is created
-15.	1996: Brewster Kahle creates the Internet archive
-16.	1998: Google is founded
-17.	2000: Wi-Fi is trademarked
-18.	2001: Wikipedia is created
-19.	2004: Facebook is created
-20.	2011: Number of Internet users reaches 2 Billion 
-
+a.	  In Internet Transmission Control Program, internet is first used in the acronym IP, which stands for Internet Protocol. 
+6.	1983: ARPANET adopts TCP/IP 
+a.	  ARPANET scientist began to assemble the “network of networks” that became the modern
+7.	1984: Domain Name System (DNS) is introduced
+a.	  Paul Mockapetris recognized one problem with ARPANET’s problem with translating addresses into a single table on a single host. He introduced DNS and it become a one of the internet standards n the IETF. Some of the DNS include: .com, .gov and .edu. 
+8.	1990: HTML language is created. 
+a.	  Developed by Tim Berners-Lee, HTML was used to create web pages, that could be displayed on the WWW. Without the creation of HTML, web pages would not be able to correctly display text or images. 
+9.	1990: The World Wide Web (WWW) is introduced. 
+a.	   Tim Berners-Lee and his team developed the WWW as a way for scientists in universities and institutes around the world to share information. The first ever website is: http://info.cern.ch/
+10.	1991:  http://info.cern.ch/
+a.	   Tim Berners-Lee publishes the first ever website, http://info.cern.ch/. It describes how the web works and how to use it.
+11.	1993: Mosaic is created and becomes the first popular web browser. 
+a.	   Marc Andreessen and Eric Bina designed Mosaic for Windows. Funding was provided for the project and the first alpha release was published in June 1993. It was not until September 1993 that the first beta was released. 
+12.	1994: WebCrawler is the first full search engine 
+a.	   Brian Pinkerton first created WebCrawler at the University of Washington. WebCrawler was only used as a desktop application. In April 1994, the search engine had over 4,000 websites. By November 1994, it hit its one millionth search query. WebCrawler is the oldest surviving search engine and is still in operation. 
+13.	1994: Amazon is founded
+a.	   Jeff Bezos created Amazon in July of 1994. It original started as an online bookstore. The company is now worth ~$1 trillion. 
+14.	1995: DOT-COM BOOM BEGINS
+15.	1995: Apache is created 
+a.	   In 1994, Brian Behlendorf and Cliff Skolnick created a group of developers to create Apache. After testing out the many enhancements and bug fixes to the NCSA base, they released their owned server, Apache, was released in April 1995. It became the most widely server. It is free to use and download. 
+16.	1995: Java is created
+a.	   James Gosling, Mike Sheridan, and Patrick Naughton started working on the java project in 1991 and was initially used for television. It was released in 1995 under Sun Microsystems Java platform. Java was a key component in the internet. Java code was designed to have less implementation dependencies and to run on all platforms that supported Java. 
+17.	1995: eBay is founded
+a.	   Pierre Omidyar founded eBay, then called AutionWeb, on September 3, 1997. The first item to go up for sell was a broken laser pointer. It was purchased for $14.83. It is now estimated to be worth ~$10.5 billion
+18.	1998: Google is founded
+a.	   Larry Page and Sergey Brin created google while students at Stanford University. They wanted to create a search engine that would analyzed the relationships among different webpages called PageRank. It determined the relevance of a webpage by how many times the webpage was linked. In September of 1997, Google was registered as a domain name. It was officially incorporated September 1998. 
+19.	2000: Wi-Fi is trademarked 
+20.	2001: Wikipedia is created
+a.	   Created by Jimmy Wales and Larry Sanger, Wikipedia become the largest reference webpage in history. It has over 5 million articles and is comprised of over 300 languages. 
+21.	2002: DOT-COM BOOM ENDS
+22.	2004: Facebook is created
+a.	    Founded by Mark Zuckerberg and several other roommates, Facebook started out as a website for only Harvard students. It eventually grew to other colleges/universities such as Yale and Columbia. Facebook eventually opened to everyone at least 13 years of age and had an email. As of January 2019, Facebook has 1.74 billion users around the world. 
+23.	2005: YouTube and Reddit are now available online
+24.	2006: Twitter Launches
+a.	    Founder of Twitter, Jack Dorsey sends out the first twit on March 21, 2006
+25.	2011: Number of Internet users reaches 2 billion 
+26.	2012: Ecommerce sales reach $1 trillion worldwide
+27.	2013: The majority of American Adults use online banking.
+28.	2018: Number of internet users reach 3.9 billion
