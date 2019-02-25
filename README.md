@@ -495,4 +495,26 @@ the branch fits all requirements you are looking for.
 And lastly, the final section allows you to see any and all changes made to files shared between branches in full detail.
 
 Sometimes, like in the example images featured above, a pull request will be able to merge automatically without issue, 
-but most of the time your pull requests will not go over so smoothly  and you will need to manually resolve merging conflcits.
+but most of the time your pull requests will not go over so smoothly  and you will need to manually resolve merging conflicts.
+
+![alt text](img/conflict.png "oops")
+
+This message will appear after creating a pull request that has merge conflicts.  Scrolling down on the same page where you
+create the request will show you a breakdown of the merge conflicts between branches.  Click "Resolve Conflicts" to be taken
+to the next page.
+
+![alt text](img/conflict-a.png "fixing time")
+
+This new page is a more in-depth look at the conflicts between each branch, and uses special tags to denote the beginning,
+end, and separate branches in the merge.  The conflict block begins with a <<<<<<< tag, separates the branches with a =======
+tag, and ends with a >>>>>>> tag.  The idea here is to manually replace or merge the conflicting segments for each conflict
+block, and to erase the conflict tags afterwards.  When dealing with text flies you can be a bit more lax and loose with
+how you merge, but when it comes down to resolving merge conflicts between code you must be extremely careful to not accidentally
+break the entire project by accidentally deleting critical segments of code.  Once you are done with the first file, click
+on the "mark as merged" button at the top of this screen, and look to the sidebar to see if there are any other files that
+need your attention.
+
+![alt text](img/conflict-c.png "almost there")
+
+Repeat this process until all files have been resolved, at which point you will be asked to confirm your changes and will
+then be able to complete the pull request as usual.
