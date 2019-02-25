@@ -294,5 +294,7 @@ Line 40:
 1.	1958: Bell Labs creates the modem
 2.	1969: Arpanet is founded.
 a.	 Arpanet was a military computer network that was used for sharing data long distance. It was developed under ARPA and soon linked four different universities computers together. ARPANET would send information by using packets. The basis for the internet can be traced back to ARPANET
+3.	1971: Ray Tomlinson sends the first network email
+a.	  Ray Tomlinson sent the first email using a software called “SNDMSG.” He also introduced the “@” symbol to separate the person name and location. Tomlinson sent the first email to a colleague in the same room as him, to check if the software was working properly. To this day, the message within the email has been forgotten. 
 
 
