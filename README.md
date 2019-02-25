@@ -306,6 +306,10 @@ a.	  ARPANET scientist began to assemble the “network of networks” that beca
 a.	  Paul Mockapetris recognized one problem with ARPANET’s problem with translating addresses into a single table on a single host. He introduced DNS and it become a one of the internet standards n the IETF. Some of the DNS include: .com, .gov and .edu. 
 8.	1990: HTML language is created. 
 a.	  Developed by Tim Berners-Lee, HTML was used to create web pages, that could be displayed on the WWW. Without the creation of HTML, web pages would not be able to correctly display text or images. 
+9.	1990: The World Wide Web (WWW) is introduced. 
+a.	   Tim Berners-Lee and his team developed the WWW as a way for scientists in universities and institutes around the world to share information. The first ever website is: http://info.cern.ch/
+10.	1991:  http://info.cern.ch/
+a.	   Tim Berners-Lee publishes the first ever website, http://info.cern.ch/. It describes how the web works and how to use it.
 
 
 
