@@ -328,5 +328,5 @@ a.	   Larry Page and Sergey Brin created google while students at Stanford Unive
 19.	2000: Wi-Fi is trademarked 
 20.	2001: Wikipedia is created
 a.	   Created by Jimmy Wales and Larry Sanger, Wikipedia become the largest reference webpage in history. It has over 5 million articles and is comprised of over 300 languages. 
-
+21.	2002: DOT-COM BOOM ENDS
 
