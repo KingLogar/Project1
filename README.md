@@ -325,6 +325,6 @@ a.	   James Gosling, Mike Sheridan, and Patrick Naughton started working on the 
 a.	   Pierre Omidyar founded eBay, then called AutionWeb, on September 3, 1997. The first item to go up for sell was a broken laser pointer. It was purchased for $14.83. It is now estimated to be worth ~$10.5 billion
 18.	1998: Google is founded
 a.	   Larry Page and Sergey Brin created google while students at Stanford University. They wanted to create a search engine that would analyzed the relationships among different webpages called PageRank. It determined the relevance of a webpage by how many times the webpage was linked. In September of 1997, Google was registered as a domain name. It was officially incorporated September 1998. 
-
+19.	2000: Wi-Fi is trademarked 
 
 
