@@ -330,7 +330,7 @@ a.	   Larry Page and Sergey Brin created google while students at Stanford Unive
 a.	   Created by Jimmy Wales and Larry Sanger, Wikipedia become the largest reference webpage in history. It has over 5 million articles and is comprised of over 300 languages. 
 21.	2002: DOT-COM BOOM ENDS
 22.	2004: Facebook is created
-a.	    Founded by Mark Zuckerberg and several other roomates, Facebook started out as a website for only Harvard students. It eventually grew to other colleges/universities such as Yale and Columbia. Facebook eventually opened to everyone at least 13 years of age and had an email. As of January 2019, Facebook has 1.74 billion users around the world. 
+a.	    Founded by Mark Zuckerberg and several other roommates, Facebook started out as a website for only Harvard students. It eventually grew to other colleges/universities such as Yale and Columbia. Facebook eventually opened to everyone at least 13 years of age and had an email. As of January 2019, Facebook has 1.74 billion users around the world. 
 23.	2005: YouTube and Reddit are now available online
 24.	2006: Twitter Launches
 a.	    Founder of Twitter, Jack Dorsey sends out the first twit on March 21, 2006
