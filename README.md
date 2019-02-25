@@ -321,6 +321,8 @@ a.	   Jeff Bezos created Amazon in July of 1994. It original started as an onlin
 a.	   In 1994, Brian Behlendorf and Cliff Skolnick created a group of developers to create Apache. After testing out the many enhancements and bug fixes to the NCSA base, they released their owned server, Apache, was released in April 1995. It became the most widely server. It is free to use and download. 
 16.	1995: Java is created
 a.	   James Gosling, Mike Sheridan, and Patrick Naughton started working on the java project in 1991 and was initially used for television. It was released in 1995 under Sun Microsystems Java platform. Java was a key component in the internet. Java code was designed to have less implementation dependencies and to run on all platforms that supported Java. 
+17.	1995: eBay is founded
+a.	   Pierre Omidyar founded eBay, then called AutionWeb, on September 3, 1997. The first item to go up for sell was a broken laser pointer. It was purchased for $14.83. It is now estimated to be worth ~$10.5 billion
 
 
 
