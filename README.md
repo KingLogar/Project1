@@ -314,6 +314,8 @@ a.	   Tim Berners-Lee publishes the first ever website, http://info.cern.ch/. It
 a.	   Marc Andreessen and Eric Bina designed Mosaic for Windows. Funding was provided for the project and the first alpha release was published in June 1993. It was not until September 1993 that the first beta was released. 
 12.	1994: WebCrawler is the first full search engine 
 a.	   Brian Pinkerton first created WebCrawler at the University of Washington. WebCrawler was only used as a desktop application. In April 1994, the search engine had over 4,000 websites. By November 1994, it hit its one millionth search query. WebCrawler is the oldest surviving search engine and is still in operation. 
+13.	1994: Amazon is founded
+a.	   Jeff Bezos created Amazon in July of 1994. It original started as an online bookstore. The company is now worth ~$1 trillion. 
 
 
 
