@@ -296,5 +296,11 @@ Line 40:
 a.	 Arpanet was a military computer network that was used for sharing data long distance. It was developed under ARPA and soon linked four different universities computers together. ARPANET would send information by using packets. The basis for the internet can be traced back to ARPANET
 3.	1971: Ray Tomlinson sends the first network email
 a.	  Ray Tomlinson sent the first email using a software called “SNDMSG.” He also introduced the “@” symbol to separate the person name and location. Tomlinson sent the first email to a colleague in the same room as him, to check if the software was working properly. To this day, the message within the email has been forgotten. 
+4.	1974: TCP/IP ideas are introduced in a protocol for packet network intercommunication.
+a.	  Vinton Cerf and Robert Kahn published A Protocol for Packet Network Intercommunication. Because many of the existing computers operated on its on hardware and software, it became almost impossible for computers to commutate to each other. Cerf and Kahn created a protocol, TCP, that allowed cross networking. They published their network architecture in May of 1974. 
+5.	1974: the word Internet is coined
+a.	  In Internet Transmission Control Program, internet is first used in the acronym IP, which stands for Internet Protocol. 
+6.	1983: ARPANET adopts TCP/IP 
+a.	  ARPANET scientist began to assemble the “network of networks” that became the modern
 
 
