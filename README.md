@@ -338,3 +338,210 @@ a.	    Founder of Twitter, Jack Dorsey sends out the first twit on March 21, 200
 26.	2012: Ecommerce sales reach $1 trillion worldwide
 27.	2013: The majority of American Adults use online banking.
 28.	2018: Number of internet users reach 3.9 billion
+
+-------------------------------------------------------------
+
+GitHub Tutorial
+
+Vocabulary
+
+GIT - Git is a free and open source distributed version control system designed to handle everything from small to very 
+large projects with speed and efficiency.
+
+GITHUB - GitHub is a Git repository hosting service, but with many new tools added to make collaboration much easier than
+with standalone Git.
+
+Repository - a central location in which data is stored and managed; in our case, a repository is the digital copy of our
+project that is stored on GitHub that we work off of.
+
+Clone -  Making a local copy of a hosted repository on our local machines.
+
+Commit - saving changes made to the project and preparing them to be pushed to the repository.
+
+Push - refers to the command we use when we send our committed version of the project back to the repository for review.
+
+Pull - updating our local project with the most recent commits from the repository.  Doing this also updates the files in
+our working environment.
+
+Branch - branches are different versions of the same project that are being worked on separately.  Every project has at 
+least a master branch, which is the main version of the project.  Each team member should ideally be working out of their
+own unique branch so as not to cause conflicts and chaos while the team works.
+
+Merge - refers to the act of combining branches into each other.  Merging branches adds all of the unique files from each
+branch into a single copy.  However, if there is a file in both branches that has the same name but different contents, 
+attempting a merge will result in a...
+
+Merge Conflict - the result of attempting to merge branches that have at least one file that has contradictory contents 
+between both branches.  This requires a manual resolution to the conflict, which will be covered in this guide.
+
+Fetch - similar to a pull in that it updates local files, but unlike a pull it does not update the files in our working
+environment
+
+Remote - refers to a web-hosted repository.
+
+Collaboration Tutorial
+
+Prerequisites:
+
+- A GitHub account.
+
+- a local installation of Git.
+
+- a local installation of Webstorm.
+
+Once you have all of the above, it's time to learn how to collaborate on GitHub.
+
+Step 1.
+
+The first step in working on a collaborative project on GitHub is to have a repository you want to work out of.  If 
+you do not have one, making one is very simple.  From your GitHub dashboard, find and click on the green "New" button.
+
+![alt text](img/Step1.png "This button")
+
+This will take you to a page where you need to give your new repository a name, plus an optional description, determine 
+if it will be publicly or privately viewable, initialize it with a readme and/or a GitIgnore, and pick a license for your
+project.  For the purposes of this example make sure you add a readme, then press the green button at the bottom of this 
+screen.
+
+![alt text](img/Step1-a.png "Don't tussle with this bird")
+
+Step 2.
+
+Now we have our repository, but we're still missing one crucial ingredient for collaboration: collaborators.  To add 
+collaborators to your project, go to the repository's page and click on the settings tab.  This will open a new screen 
+with a sidebar.  On that sidebar is a setting labelled collaborators, click on it.
+
+![alt text](img/Step2.png "Invite your friends, it's coding time!")
+
+This opens a new panel where you can see the current collaborators on a project as well as provide you with a searchbox
+for looking up your teammates' accounts and adding them to the project.  Type in one username at a time and press the button
+to send them an invite.  After the accept, they will be added to your project as a collaborator.
+
+Step 3.
+
+Okay, now we have our collaborators but you may be wondering just how everyone will get a copy of the project's files to
+work on.  This is where we will enter Webstorm and begin to do some actual work.  Open up Webstorm and locate the VCS tab
+at the very top of the workspace window.  Under that tab, navigate to Git, and under the Git tab navigate to and click on 
+Clone.
+
+![alt text](img/Step3.png "Ignore the wip in the background.")
+
+This will open a small window over your work space with two fields and a few buttons.  The top field is asking for the URL
+of the repository you would like to clone, while the second is asking you to specify where to save this cloned repository.
+Paste the URL of the repository made during this tutorial and configure the save location to your liking, then press the
+clone button.  Depending on the size of the repository cloning could take several minutes.
+
+![alt text](img/Step3-a.png "Simple yet effective.")
+
+Step 4.
+
+Before you and your teammates start coding in a flurry and trip over each other, there is one very important step to take
+to ensure code sanity: creating individual branches. To create a branch, go to the bottom right corner of webstorm and 
+look for a tab that says "Git:master." Click on it, and the branch window will appear.
+
+![alt text](img/Step4.png "Small little bugger.")
+
+For the time being we're just interested in one option, New Branch, but we will come back to this menu later.  Click on 
+New Branch and communicate with your team so all members have a uniquely named branch.  As a side note, to switch between
+your active branch, go back to this menu, click on the local branch you would like to work in and select the Checkout option.
+
+Step 5.
+
+Once you're done making changes to your local branch and want to update the repository with your work, it's time to commit
+your changes and push them back to the repository.  To do this, we need to find the Commit button in order to save our work.
+This button is located in two places: in the top right corner of the webstorm window, and under the VCS menu.  Both buttons 
+will accomplish the same effect.
+
+![alt text](img/Step5.png "There's a right and a wrong choice here.")
+
+The Commit button acts similarly to saving, meaning you don't need to perform a regular save after a commit, but it also
+prepares your code to be pushed to the repository.  That's why when you press on this button one of the things you'll see
+is a textbox where you should write a short, descriptive message explaning your changes.  After writing a message just
+press the commit button at the bottom of this window.  Now, we need to actually push the code back to the repository.  This
+button is, once again, located under VCS -> Git -> Push.  Clicking on it will open this window.
+
+![alt text](img/Step5-a.PNG "Not much going on here.")
+
+The bulk of this window is taken up but two review panels.  The first one allows you to review which commits you're about
+to push, and the second one shows you the status of certain files in the project.  Only the files that have been changed, 
+added, removed, etc since the last pushed commit are shown, with new files being highlighted green, removed files being 
+greyed out, and edited files being blue.  After making sure you're pushing everything you want to, go ahead and push the
+commit button to send your work to the repository.  This will create a new section of the repository for your branch, 
+assuming you've been working on one.
+
+Step 6.
+
+One thing you might notice after a few commits by your team is that your local files don't automatically update after every
+commit to the repository.  In order to update your local files, you need to Pull from the repository.  In order to do this,
+just locate the Pull button located next to the Commit button in the top right, or under the VCS -> Git menus.  Either way,
+this will open a small dialogue box.
+
+![alt text](img/Step6.PNG "We don't really care.")
+
+None of these options are particularly important to us, so just go ahead and hit the OK button.  If you end up working on 
+a project with more specific requirements, those options may come in handy, but for now just hit ok and let your files 
+update.  Once that finishes, your local copy of the project will be up to date.
+
+Step 7. 
+
+But wait, you might be saying, my work space didn't update at all!  While that may appear to be true, click on the branch
+manager tab again.  If your teammates added their own branches, you'll see them added under the remote branches section.
+How do you get them into your workspace?  Simple.  Click on that tab again, then on whatever remote branch you don't already
+have in your workspace, then click on Checkout As...
+
+![alt text](img/step7.png "Our old friend.")
+
+This will present you with the option to either rename the branch or leave it with its original name.  I recommend leaving
+it with the default name.  After creating the new copy of that branch, checkout into that branch and you will see all the
+files and edits made in that branch.  These branches are separate from each other so you can work in your own branch while
+using files in other branches as references.  Additionally, you can merge local branches into each other.  To do this, 
+simply checkout the branch you would like to merge into, then click on the branches you would like to merge and click on 
+"merge into current."  This will combine the two branches so you have the files of both.
+
+
+Step 8.
+
+The final thing that you may notice while collaborating is that the master branch doesn't seem to update and pushing into
+the master branch isn't working.  That's simply because you can't push into master, and there's a specific process to update
+the contents of master.  On the project's GitHub page, you will see a button labelled "New Pull Request".  Click on it, 
+and after being prompted to select a branch you will be taken to a new screen.
+
+![alt text](img/step8.png "A big boy.")
+
+This screen can be broken up into 3 major sections.  The first section asks you to write a description for your pull 
+request and also features the button to confirm your pull request.  Additionally the top of this section will show you 
+the compatibility between the two branches.
+
+![alt text](img/step8-a.png "who is bigger than the big boy?")
+
+The second section allows you to review every previous commit from the branch you are merging.  Useful for deciding if 
+the branch fits all requirements you are looking for.
+
+![alt text](img/step8-b.png "No one. No is is bigger than the big boy")
+
+And lastly, the final section allows you to see any and all changes made to files shared between branches in full detail.
+
+Sometimes, like in the example images featured above, a pull request will be able to merge automatically without issue, 
+but most of the time your pull requests will not go over so smoothly  and you will need to manually resolve merging conflicts.
+
+![alt text](img/conflict.png "oops")
+
+This message will appear after creating a pull request that has merge conflicts.  Scrolling down on the same page where you
+create the request will show you a breakdown of the merge conflicts between branches.  Click "Resolve Conflicts" to be taken
+to the next page.
+
+![alt text](img/conflict-a.png "fixing time")
+
+This new page is a more in-depth look at the conflicts between each branch, and uses special tags to denote the beginning,
+end, and separate branches in the merge.  The conflict block begins with a <<<<<<< tag, separates the branches with a =======
+tag, and ends with a >>>>>>> tag.  The idea here is to manually replace or merge the conflicting segments for each conflict
+block, and to erase the conflict tags afterwards.  When dealing with text flies you can be a bit more lax and loose with
+how you merge, but when it comes down to resolving merge conflicts between code you must be extremely careful to not accidentally
+break the entire project by accidentally deleting critical segments of code.  Once you are done with the first file, click
+on the "mark as merged" button at the top of this screen, and look to the sidebar to see if there are any other files that
+need your attention.
+
+![alt text](img/conflict-c.png "almost there")
+
+Repeat this process until all files have been resolved, at which point you will be asked to confirm your changes and will
+then be able to complete the pull request as usual.
