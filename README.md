@@ -332,3 +332,5 @@ a.	   Created by Jimmy Wales and Larry Sanger, Wikipedia become the largest refe
 22.	2004: Facebook is created
 a.	    Founded by Mark Zuckerberg and several other roomates, Facebook started out as a website for only Harvard students. It eventually grew to other colleges/universities such as Yale and Columbia. Facebook eventually opened to everyone at least 13 years of age and had an email. As of January 2019, Facebook has 1.74 billion users around the world. 
 23.	2005: YouTube and Reddit are now available online
+24.	2006: Twitter Launches
+a.	    Founder of Twitter, Jack Dorsey sends out the first twit on March 21, 2006
